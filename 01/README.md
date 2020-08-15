@@ -34,7 +34,7 @@ Your index page should contain the following content:
 | Java       | 2010           | Beginner    | 3                  |
 | ...        | ...            | ...         | ...                |
 
-Use a table caption (`caption`), a table header (`th`) for the columns' headlines, table rows (`tr`) and table cells (`td`) for the content.
+Use a table caption (`caption`), table rows (`tr`), table header cells (`th`) for the columns' headlines, and table cells (`td`) for the content.
 
 You can find some table examples in the [MDN table documentation][1]
 
@@ -149,7 +149,7 @@ The image file can be placed in an additional `images` folder next to your HTML 
 
 On the contact page we include a small contact form and additional address data.
 
-The contact page also has an `h1` page title, a `main` section (which contains the main content) and an optional `footer` that can be copy-pasted from the index page again.
+The contact page also has an `h1` page title, a `main` section (which contains the main content), a navigation and an optional `footer`, which can be copy-pasted from the index page again.
 
 ### 4.1. Contact form
 
@@ -157,8 +157,8 @@ The contact form should at least include the following fields:
 
 - name input (required)
 - email input (required)
-- age input
-- country selection
+- age input (minimum age is 14)
+- selection (country or favorite pet or favorite time of the year or …)
 - message textarea
 - newsletter checkbox
 - submit button

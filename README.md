@@ -33,6 +33,8 @@ Here is a list of websites I use(d) when learning about modern web technologies:
 ### Tutorials
 
 - [Interneting is hard](https://www.internetingishard.com)
+- [CSS Grid Garden](https://cssgridgarden.com)
+- [Flexbox Froggy](https://flexboxfroggy.com)
 
 ### Blogs
 
@@ -43,5 +45,7 @@ Here is a list of websites I use(d) when learning about modern web technologies:
 ### Tools
 
 - [Markup validation service](https://validator.w3.org)
+- [Can I use…](https://caniuse.com)
 - [Codepen](https://codepen.io)
 - [CSS reference](https://tympanus.net/codrops/css_reference/)
+- [CSS Stats](https://cssstats.com)

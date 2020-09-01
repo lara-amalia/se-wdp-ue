@@ -1,0 +1,17 @@
+body {
+  color: #333333;
+}
+
+a {
+  color: #123456;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #efefef;
+}
+
+header {
+  background-color: #333333;
+  color: #ffffff;
+}

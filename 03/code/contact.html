@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Contact | Lara's portfolio website</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&family=Ubuntu+Condensed&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="navigation">
+      <a href="./index.html" class="nav-item">Home</a>
+      <a href="./about.html" class="nav-item">About me</a>
+      <a href="./portfolio.html" class="nav-item">Portfolio</a>
+      <a href="./contact.html" class="nav-item">Contact</a>
+    </nav>
+    <header class="page-header">
+      <h1>Contact me</h1>
+    </header>
+    <main>
+      <section>
+        <h2>Contact form</h2>
+        <form method="POST">
+          <div>
+            <label for="name-input">Full name:</label>
+            <input type="text" name="name" id="name-input" required />
+          </div>
+          <div>
+            <label for="email-input">Email:</label>
+            <input type="email" name="email" id="email-input" required />
+          </div>
+          <div>
+            <label for="age-input">Age:</label>
+            <input type="number" min="14" name="age" id="age-input" />
+          </div>
+          <div>
+            <label for="season-select">Favorite time of the year:</label>
+            <select name="season" id="season-select">
+              <option value="">--- select an option ---</option>
+              <option value="spring">Spring</option>
+              <option value="summer">Summer</option>
+              <option value="autumn">Autumn</option>
+              <option value="winter">Winter</option>
+            </select>
+          </div>
+          <div>
+            <label for="message-input">Message:</label>
+            <textarea name="message" id="message-input" rows="4">
+Hi Lara…
+            </textarea>
+          </div>
+          <div>
+            <input type="checkbox" name="newsletter" id="newsletter-checkbox" />
+            <label for="newsletter-checkbox"
+              >Yes, I want to receive your newsletter</label
+            >
+          </div>
+          <div>
+            <input type="submit" value="Send" />
+          </div>
+        </form>
+      </section>
+      <section>
+        <h2>Contact data</h2>
+        <address>
+          Email:
+          <a href="mailto:lara.aigmueller@fh-hagenberg.at"
+            >lara.aigmueller@fh-hagenberg.at</a
+          ><br />
+          Phone: <a href="tel:+43699555000123">+43 699 555 000 123</a><br />
+          Web: <a href="https://www.laraamalia.at/">www.laraamalia.at</a>
+        </address>
+      </section>
+    </main>
+    <footer class="page-footer">
+      <p>
+        This website is built with love in Hagenberg, Upper Austria.<br />
+        © 2020
+      </p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,154 @@
+/***************
+ * Base styles *
+ ***************/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #333333;
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Ubuntu Condensed", Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+a {
+  color: #1acc78;
+  text-decoration: none;
+  transition: all 150ms ease-out;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+section {
+  padding: 3rem 1rem;
+}
+
+section:nth-child(even) {
+  background-color: #efefef;
+}
+
+/**********
+ * Layout *
+ **********/
+
+.page-header,
+.page-footer {
+  background-color: #172833;
+  color: #ffffff;
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.navigation {
+  background-color: #2c404c;
+  padding: 12px;
+  text-align: center;
+}
+
+.nav-item {
+  color: #ffffff;
+  padding: 4px 8px;
+  text-transform: uppercase;
+}
+
+.nav-item:hover {
+  background-color: #4c606d;
+  text-decoration: none;
+}
+
+/************
+ * Homepage *
+ ************/
+
+.projects-list {
+  list-style: none;
+  padding: 0;
+}
+
+.projects-list li {
+  padding: 2rem 1rem;
+  font-size: 1.2rem;
+}
+
+.projects-list li + li {
+  border-top: 1px solid #c2c8cc;
+}
+
+/*****************************
+ * Portfolio project entries *
+ *****************************/
+
+.project {
+  border: 1px solid #2c404c;
+  border-radius: 6px;
+  width: 360px;
+  margin: 1rem;
+  overflow: hidden;
+}
+
+.project-title {
+  font-size: 20px;
+  text-align: left;
+  color: #ffffff;
+  background-color: #2c404c;
+  padding: 8px;
+  margin: 0;
+}
+
+.project-content {
+  padding: 12px 8px;
+}
+
+.project-content > * {
+  margin-top: 0;
+}
+
+.project-content > *:last-child {
+  margin-bottom: 0;
+}
+
+.project-description {
+  font-size: 1.2rem;
+}
+
+.project-technologies {
+  list-style: none;
+  padding: 0;
+  text-align: right;
+}
+
+.project-technologies li {
+  display: inline;
+  color: #8a97a1;
+  font-family: "Ubuntu Condensed", Helvetica, Arial, sans-serif;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.project-technologies li + li {
+  border-left: 2px solid #8a97a1;
+}

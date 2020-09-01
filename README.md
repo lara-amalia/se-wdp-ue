@@ -49,3 +49,10 @@ Here is a list of websites I use(d) when learning about modern web technologies:
 - [Codepen](https://codepen.io)
 - [CSS reference](https://tympanus.net/codrops/css_reference/)
 - [CSS Stats](https://cssstats.com)
+
+### Design resources
+
+- [Google Web Fonts](https://fonts.google.com)
+- [Adobe Color](https://color.adobe.com/create/color-wheel)
+- [Coolors](https://coolors.co)
+- [Leonardo](https://leonardocolor.io/)

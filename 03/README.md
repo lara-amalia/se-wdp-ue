@@ -284,7 +284,7 @@ This way it's guaranteed that the image is never wider than its parent element. 
 
 Images are inline elements, not block elements! A side effect of this fact is that if the image is followed by a colored area below there will be a small gap between the image and the next block element.
 
-![Project entry design](./screenshots/image-gap.png)
+![Gap below image element](./screenshots/image-gap.png)
 
 This is no margin or padding… this is the space reserved for descenders of letters. The bottom edge of the image is always in line with a text's baseline which results in a gap below the image. How to fix this? Let's extend our CSS rule for images:
 
@@ -299,7 +299,7 @@ img {
 
 If you add a border radius to the project entry `div` and you take a closer look at the top corners you can see that the image is not affected by this border radius and overflows.
 
-![Project entry design](./screenshots/image-overflow.png)
+![Image overflow](./screenshots/image-overflow.png)
 
 So we have to hide the overflow in order to fix this as follows:
 

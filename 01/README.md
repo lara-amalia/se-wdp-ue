@@ -133,7 +133,7 @@ The about page only contains the basic HTML structure from exercise 1.1. Add som
 
 Use the same navigation and the footer from the index page (copy & paste).
 
-### 3.1. Add an image
+### 3.1 Add an image
 
 On the about page, add an image of you, using the `<img>` tag. Don't forget to add an alternative text (`alt` attribute).
 
@@ -151,7 +151,7 @@ On the contact page we include a small contact form and additional address data.
 
 The contact page also has an `h1` page title, a `main` section (which contains the main content), a navigation and an optional `footer`, which can be copy-pasted from the index page again.
 
-### 4.1. Contact form
+### 4.1 Contact form
 
 The contact form should at least include the following fields:
 
@@ -167,7 +167,7 @@ If you have some time left, you can also play around with other input types, e.g
 
 > Don't forget to add labels to all your input fields.
 
-### 4.2. Contact data
+### 4.2 Contact data
 
 Below (or above) the form you can add some contact data. You can simply use a `p` element or make use of the `address` element, which is also available in HTML. You can find usage details in the [MDN address documentation][2].
 

@@ -1,0 +1,42 @@
+.project {
+  border: 1px solid black;
+  /*
+   * overflow: hidden;
+   * width
+   */
+}
+
+.project-title {
+  /* 
+   * background-color
+   * color
+   * padding
+   * text-align
+   */
+}
+
+.project-description {
+  /*
+   * padding
+   */
+}
+
+.project-metadata {
+  /*
+   * font-size
+   */
+}
+
+.project-technologies {
+  /*
+   * list-style: none;
+   * padding: 0;
+   * text-align: right;
+   */
+}
+
+.project-technologies li {
+}
+
+.project-technologies li + li {
+}

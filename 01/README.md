@@ -1,6 +1,6 @@
 # WDP3 – Exercise 1
 
-HTML Basics: Let's create your first small website! This will be a portfolio page with a startpage (index), an about me page, a subpage that lists all your development projects and a contact page.
+HTML Basics: Let's create your first small website! This will be a portfolio page with a startpage (index), an "about me" page, a sub-page with a project portfolio, and a contact page.
 
 ## 1 The index.html file
 
@@ -180,7 +180,7 @@ There's a very useful tool you'll probably need every time you're developing som
 - in Firefox: navigate to "Tools" - "Web Developer" - "Toggle Tools"
 - or remember the Shortcut Option+Command+I (Mac) or Control+Shift+I (Windows, Linux)
 
-Once opened, select the Elements-tab (Chrome), or the Inspector-tab (Firefox). Then you should be able to see the code you just wrote in your text editor right next to the rendered output.
+Once opened, select the Elements-tab (Chrome), or the Inspector-tab (Firefox). You should be able to see the code you just wrote in your text editor right next to the rendered output.
 
 With the developer tools open you can modify the website directly in the browser, play around with CSS (we'll do that next time), search for bugs and much more…
 

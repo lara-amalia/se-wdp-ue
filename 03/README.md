@@ -1,6 +1,6 @@
 # WDP3 – Exercise 3
 
-CSS Basics: Let's add some styling to our website we started to create in the first exercise. This time we will add text styles, colors and spacings.
+CSS Basics: Let's add some styling to our website we started to create in the first exercise. This time, we will add text styles, colors and spacings.
 
 ## 1 The styles.css file
 
@@ -12,7 +12,7 @@ Create a file called `styles.css` next to your `index.html` file and add a link 
 <link rel="stylesheet" href="styles.css" />
 ```
 
-For a quick check if everything works, set the background-color of your whole page to red and have a look at your `index.html` page in the browser. You have to reload the page everytime you made changes to actually see them in the browser!
+For a quick check if everything works, set the background-color of your whole page to red and have a look at your `index.html` page in the browser. You'll have to reload the page everytime you make changes to actually see them in the browser!
 
 ```css
 body {
@@ -22,13 +22,13 @@ body {
 
 > Note: Don't forget the semicolon after each CSS rule!
 
-When you've successfully linked the index page and the CSS file, reference the stylesheet in all other HTML files (about, portfolio, contact) as well (and change the background color back to something not so red…).
+When you've successfully linked the index page and the CSS file, reference the stylesheet in all other HTML files (about, portfolio, contact) as well (and change the background color back to something less red…).
 
 ### 1.1 Text
 
-Choose two fonts for your website from [Google Fonts](https://fonts.google.com). Use one for headlines and the other one for body text. You can also use one font and select for example the regular style for the body text and the bold style for headlines.
+Choose two fonts for your website from [Google Fonts](https://fonts.google.com). Use one for headlines and the other one for body text. You can also use one font and select, for example, the regular style for the body text and the bold style for headlines.
 
-> If you found a font you like, check out the font pairings suggested by Google Fonts, maybe there's another one you can use as second font. Don't spend too much time on Google Fonts now, you can always change the font later if you found another one, that you like more!
+> If you found a font you like, check out the font pairings suggested by Google Fonts, maybe there's another one you can use as second font. Don't spend too much time on Google Fonts now, you can always change the font later if you found another one you like better!
 
 Copy and paste the `link` you can find in the embed-tab on Google Fonts into the head of your HTML files.
 
@@ -51,7 +51,7 @@ h6 {
 
 Play around with the `text-alignment` property – maybe center your headlines?
 
-You could also set the `text-transform` property to `uppercase` for headlines, or for the links in your navigation?
+You could also set the `text-transform` property to `uppercase` for headlines or the links in your navigation.
 
 ### 1.2 Colors
 
@@ -280,7 +280,7 @@ img {
 }
 ```
 
-This way it's guaranteed that the image is never wider than its parent element. If the project entry `div` has a width of let's say 400px, the image will be 400px wide on screen (while the actual size of the image file is still 1000px).
+This way it's guaranteed that the image will never be wider than its parent element. If the project entry `div` has a width of, let's say, 400px, the image will be 400px wide on screen (while the actual size of the image file is still 1000px).
 
 Images are inline elements, not block elements! A side effect of this fact is that if the image is followed by a colored area below there will be a small gap between the image and the next block element.
 
@@ -312,7 +312,7 @@ So we have to hide the overflow in order to fix this as follows:
 
 ### 4.2. Display inline vs. block
 
-We already heard about inline and block elements. Both have different interesting properties. Block elements are full-width boxes that generate line breaks before and after the element. ”We can give them width, height, margin as well as padding, and these properties will push other elements on the page away from them.” [1] Inline elements are on the same line when there is enough space available. ”If you add margins and padding, this will display but it won’t push other elements away.” [1]
+We already heard about inline and block elements. Both have different interesting properties. Block elements are full-width boxes that generate line breaks before and after the element. ”We can give them width, height, margin as well as padding, and these properties will push other elements on the page away from them.” <sup>[1](https://www.smashingmagazine.com/2019/04/display-two-value/)</sup> Inline elements are on the same line when there is enough space available. ”If you add margins and padding, this will display but it won’t push other elements away.” <sup>[1](https://www.smashingmagazine.com/2019/04/display-two-value/)</sup>
 
 Every inline-element can be made a block-element and vice versa by setting the `display` property accordingly. For example:
 

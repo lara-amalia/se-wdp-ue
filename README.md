@@ -59,3 +59,8 @@ Here is a list of websites I use(d) when learning about modern web technologies:
 - [Coolors](https://coolors.co)
 - [Leonardo](https://leonardocolor.io/)
 - [UX Myths](https://uxmyths.com/)
+
+### Fun stuff
+
+- [Motherf🐶cking website](https://motherfuckingwebsite.com)
+- [User in yer face](https://userinyerface.com)

@@ -29,6 +29,7 @@ Here is a list of websites I use(d) when learning about modern web technologies:
 - [CSS on MDN web docs](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [World Wide Web Consortium (W3C)](https://www.w3.org)
 - [CSS documentation and news](https://www.w3.org/Style/CSS/)
+- [CSS Mistakes](https://wiki.csswg.org/ideas/mistakes)
 
 ### Tutorials
 
@@ -41,6 +42,7 @@ Here is a list of websites I use(d) when learning about modern web technologies:
 - [Smashing Magazine](https://www.smashingmagazine.com)
 - [CSS Tricks](https://css-tricks.com)
 - [fettblog.eu](https://fettblog.eu)
+- [web.dev by Google](https://web.dev)
 
 ### Tools
 
@@ -50,9 +52,10 @@ Here is a list of websites I use(d) when learning about modern web technologies:
 - [CSS reference](https://tympanus.net/codrops/css_reference/)
 - [CSS Stats](https://cssstats.com)
 
-### Design resources
+### Design and UX resources
 
 - [Google Web Fonts](https://fonts.google.com)
 - [Adobe Color](https://color.adobe.com/create/color-wheel)
 - [Coolors](https://coolors.co)
 - [Leonardo](https://leonardocolor.io/)
+- [UX Myths](https://uxmyths.com/)

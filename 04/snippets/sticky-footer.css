@@ -1,0 +1,30 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  color: #333333;
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+h1,
+h2 {
+  font-family: "Ubuntu Condensed", Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+.page-header,
+.page-footer {
+  background-color: #172833;
+  color: #ffffff;
+  padding: 3rem 1rem;
+  text-align: center;
+}

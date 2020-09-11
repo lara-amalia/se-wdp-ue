@@ -1,0 +1,75 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  color: #333333;
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+h1,
+h2 {
+  font-family: "Ubuntu Condensed", Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+.page-header,
+.page-footer {
+  background-color: #172833;
+  color: #ffffff;
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+/* Portfolio grid layout */
+
+.project-grid {
+  padding: 2rem 1rem;
+}
+
+.project {
+  border: 1px solid #2c404c;
+  border-radius: 6px;
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 640px) {
+  .project-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+
+  .project {
+    margin-bottom: 0;
+  }
+
+  .project-featured {
+    grid-column-end: span 2;
+    display: flex;
+  }
+
+  .project-featured img {
+    max-width: 40%;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .project-grid {
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1000px;
+  }
+
+  .project-featured {
+    grid-column-end: span 3;
+  }
+}

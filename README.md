@@ -2,10 +2,6 @@
 
 In three exercises we will build a small portfolio website, consisting of a homepage and some subpages.
 
-The most important subpage of the website will be the description and documentation of your semester project.
-
-The website has to be submitted together with your semester project one week before the final presentations via eLearning.
-
 ## Tools you will need
 
 A **text editor** of your choice, e.g. Visual Studio Code, Atom, Sublime Text, WebStorm,…

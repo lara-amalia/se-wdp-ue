@@ -125,7 +125,7 @@ Take some minutes to explore what you can do there. Try to:
 
 > Note that changes you made using developer tools are not automatically saved to your CSS file. If you made changes you want to keep, go back to your stylesheet file and add them there as well!
 
-> Note that once you reload the page in your browser, all changes you made in the developer tools are lost.
+> Note that once you reload the page in your browser, **all changes** you made in the developer tools **are lost**. If you are using _Google Chrome_ and want to avoid that check out [Chrome Devtools - Workspaces](https://developers.google.com/web/tools/chrome-devtools/workspaces#devtools).
 
 The developer tools give you information about the source of CSS rules (`user agent stylesheet` vs. your own `styles.css` vs. inline styles), inheritance and more.
 

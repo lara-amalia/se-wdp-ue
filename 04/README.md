@@ -179,10 +179,10 @@ Let's think about what we want to achieve: all items on our page (navigation, he
 And now the same, but described in CSS:
 
 ```css
-/* We have to set the min-height of the wrapping elements to 100%. */
+/* We have to set the min-height of the wrapping elements to 100% of the viewport height. */
 html,
 body {
-  min-height: 100%;
+  min-height: 100vh;
 }
 
 body {

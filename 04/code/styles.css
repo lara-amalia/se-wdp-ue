@@ -228,3 +228,54 @@ section:nth-child(even) {
 .project-technologies li + li {
   border-left: 2px solid #8a97a1;
 }
+
+/****************
+ * Contact form *
+ ****************/
+
+input,
+select,
+textarea {
+  margin-bottom: 1rem;
+}
+
+.message-label,
+.message-input {
+  width: 100%;
+}
+
+.form-submit {
+  background-color: #172833;
+  color: #ffffff;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 8px 16px;
+  border: none;
+}
+
+.form-submit:hover {
+  cursor: pointer;
+  background-color: #2c404c;
+}
+
+.form-layout {
+  display: grid;
+}
+
+.form-actions {
+  justify-self: center;
+}
+
+@media screen and (min-width: 600px) {
+  .form-layout {
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .full-width {
+    grid-column-end: span 2;
+  }
+
+  .form-actions {
+    justify-self: end;
+  }
+}

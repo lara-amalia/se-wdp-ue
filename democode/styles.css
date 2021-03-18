@@ -31,9 +31,21 @@ a:hover {
   text-decoration: none;
 }
 
-.footer-link {
+.nav-link {
   color: #ffffff;
+  font-weight: 700;
+  margin: 0 10px;
 }
+
+.article {
+  min-width: 50px;
+  height: 250px;
+  background-color: lightslategray;
+  border-radius: 12px;
+  box-shadow: 1px 2px 12px #a0a0a0;
+}
+
+/* TODO: add the following classes/ids to the index.html file */
 
 .primary-nav {
   background-color: var(--dark-bg);
@@ -48,12 +60,6 @@ a:hover {
   margin: 0;
 }
 
-.nav-link {
-  color: #ffffff;
-  font-weight: 700;
-  margin: 0 10px;
-}
-
 .latest-articles {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -62,16 +68,12 @@ a:hover {
   margin: 0 auto;
 }
 
-.article {
-  min-width: 50px;
-  height: 250px;
-  background-color: lightslategray;
-  border-radius: 12px;
-  box-shadow: 1px 2px 12px #a0a0a0;
-}
-
 .featured-article {
   grid-column-end: span 2;
+}
+
+.footer-link {
+  color: #ffffff;
 }
 
 #site-title {

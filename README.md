@@ -20,7 +20,7 @@ Here is a list of websites I use(d) when learning about modern web technologies:
 
 ### Web standards & documentation
 
-- [HTML Livng Standard](https://html.spec.whatwg.org/multipage/)
+- [HTML Living Standard](https://html.spec.whatwg.org/multipage/)
 - [HTML on MDN web docs](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [CSS on MDN web docs](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [World Wide Web Consortium (W3C)](https://www.w3.org)
